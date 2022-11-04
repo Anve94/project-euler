@@ -16,4 +16,8 @@ def find_multiples(n: list) -> list:
     
 if __name__ == '__main__':
     n = [i for i in range(1, 1000)]
+    # Verbose solution with iteration
     print(sum(find_multiples(n)))
+
+    # Less verbose solution with list comprehension
+    print(sum([i for i in n if i % 3 == 0 or i % 5 == 0]))
