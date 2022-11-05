@@ -5,7 +5,7 @@ Problem 6: By listing the first six prime numbers: 2, 3, 5,
 What is the 10 001st prime number?
 """
 
-def get_nth_prime(n):
+def get_nth_prime(n: int) -> int:
     counter = 2
     last = 3 # Start on first odd prime so we can incr. by 2 later
     while counter < n:
