@@ -19,8 +19,6 @@ def largest_palindrome() -> int:
                 found.append(to_check)
                 
     return max(found)
-                
-            
     
 def is_palindrome(n: int) -> bool:
     """Check whether the number is a palindrome by casting to string
