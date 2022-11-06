@@ -16,7 +16,7 @@ def find_largest_product(n: str, seq: int) -> int:
         seq (int): The sequence length to find the product for.
 
     Returns:
-        int: The larges product found in n with the specified sequence length.
+        int: The largest product found in n with the specified sequence length.
     """
     highest = 0
     left_bound = 0
